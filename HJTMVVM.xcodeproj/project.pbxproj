@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6846DE5811F11F15EE45BC17 /* libPods-HJTMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D7577C64326B1348F8CB1ED /* libPods-HJTMVVM.a */; };
+		E4B7F14C1D1251100045D50B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F14B1D1251100045D50B /* main.m */; };
+		E4B7F14F1D1251100045D50B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F14E1D1251100045D50B /* AppDelegate.m */; };
+		E4B7F1521D1251100045D50B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1511D1251100045D50B /* ViewController.m */; };
+		E4B7F1551D1251100045D50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B7F1531D1251100045D50B /* Main.storyboard */; };
+		E4B7F1571D1251100045D50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B7F1561D1251100045D50B /* Assets.xcassets */; };
+		E4B7F15A1D1251100045D50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B7F1581D1251100045D50B /* LaunchScreen.storyboard */; };
+		E4B7F1651D1251100045D50B /* HJTMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1641D1251100045D50B /* HJTMVVMTests.m */; };
+		E4B7F1701D1251100045D50B /* HJTMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F16F1D1251100045D50B /* HJTMVVMUITests.m */; };
+		E4B7F1851D12550B0045D50B /* HJTNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1841D12550B0045D50B /* HJTNetTool.m */; };
+		E4B7F18D1D1268A00045D50B /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F18B1D1268A00045D50B /* NewsTableViewCell.m */; };
+		E4B7F18E1D1268A00045D50B /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B7F18C1D1268A00045D50B /* NewsTableViewCell.xib */; };
+		E4B7F1961D12692B0045D50B /* WXNewsList.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1911D12692B0045D50B /* WXNewsList.m */; };
+		E4B7F1971D12692B0045D50B /* WXNewsResult.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1931D12692B0045D50B /* WXNewsResult.m */; };
+		E4B7F1981D12692B0045D50B /* WXNewsWXNews.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1951D12692B0045D50B /* WXNewsWXNews.m */; };
+		E4B7F19E1D1270960045D50B /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F19D1D1270960045D50B /* TableViewDataSource.m */; };
+		E4B7F1A11D1270A70045D50B /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1A01D1270A70045D50B /* TableViewDelegate.m */; };
+		E4B7F1A91D128E710045D50B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1A81D128E710045D50B /* WebViewController.m */; };
+		E4B7F1AC1D1296770045D50B /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B7F1AB1D1296770045D50B /* WebKit.framework */; };
+		E4B7F1AF1D12983B0045D50B /* UIViewController+changeNavBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1AE1D12983B0045D50B /* UIViewController+changeNavBarItem.m */; };
+		E4B7F1B21D129EE00045D50B /* HJTClearCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B7F1B11D129EE00045D50B /* HJTClearCacheTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4B7F1611D1251100045D50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B7F13F1D1251100045D50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B7F1461D1251100045D50B;
+			remoteInfo = HJTMVVM;
+		};
+		E4B7F16C1D1251100045D50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B7F13F1D1251100045D50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B7F1461D1251100045D50B;
+			remoteInfo = HJTMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FDFC07BA1B2E10E1309ED5 /* Pods-HJTMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HJTMVVM/Pods-HJTMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7577C64326B1348F8CB1ED /* libPods-HJTMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HJTMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC5C832E0533045370865E8 /* Pods-HJTMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJTMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-HJTMVVM/Pods-HJTMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		E4B7F1471D1251100045D50B /* HJTMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJTMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B7F14B1D1251100045D50B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4B7F14D1D1251100045D50B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4B7F14E1D1251100045D50B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4B7F1501D1251100045D50B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4B7F1511D1251100045D50B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4B7F1541D1251100045D50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4B7F1561D1251100045D50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4B7F1591D1251100045D50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4B7F15B1D1251100045D50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B7F1601D1251100045D50B /* HJTMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B7F1641D1251100045D50B /* HJTMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTMVVMTests.m; sourceTree = "<group>"; };
+		E4B7F1661D1251100045D50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B7F16B1D1251100045D50B /* HJTMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJTMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B7F16F1D1251100045D50B /* HJTMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJTMVVMUITests.m; sourceTree = "<group>"; };
+		E4B7F1711D1251100045D50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B7F1831D12550B0045D50B /* HJTNetTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTNetTool.h; sourceTree = "<group>"; };
+		E4B7F1841D12550B0045D50B /* HJTNetTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTNetTool.m; sourceTree = "<group>"; };
+		E4B7F1871D12553C0045D50B /* ServerAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerAddress.h; sourceTree = "<group>"; };
+		E4B7F1891D1256A10045D50B /* CustomTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTool.h; sourceTree = "<group>"; };
+		E4B7F18A1D1268A00045D50B /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		E4B7F18B1D1268A00045D50B /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		E4B7F18C1D1268A00045D50B /* NewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		E4B7F18F1D12692B0045D50B /* WXNews DataModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WXNews DataModels.h"; sourceTree = "<group>"; };
+		E4B7F1901D12692B0045D50B /* WXNewsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNewsList.h; sourceTree = "<group>"; };
+		E4B7F1911D12692B0045D50B /* WXNewsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNewsList.m; sourceTree = "<group>"; };
+		E4B7F1921D12692B0045D50B /* WXNewsResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNewsResult.h; sourceTree = "<group>"; };
+		E4B7F1931D12692B0045D50B /* WXNewsResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNewsResult.m; sourceTree = "<group>"; };
+		E4B7F1941D12692B0045D50B /* WXNewsWXNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXNewsWXNews.h; sourceTree = "<group>"; };
+		E4B7F1951D12692B0045D50B /* WXNewsWXNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXNewsWXNews.m; sourceTree = "<group>"; };
+		E4B7F19C1D1270960045D50B /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		E4B7F19D1D1270960045D50B /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		E4B7F19F1D1270A70045D50B /* TableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDelegate.h; sourceTree = "<group>"; };
+		E4B7F1A01D1270A70045D50B /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
+		E4B7F1A71D128E710045D50B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E4B7F1A81D128E710045D50B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		E4B7F1AB1D1296770045D50B /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E4B7F1AD1D12983B0045D50B /* UIViewController+changeNavBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+changeNavBarItem.h"; sourceTree = "<group>"; };
+		E4B7F1AE1D12983B0045D50B /* UIViewController+changeNavBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+changeNavBarItem.m"; sourceTree = "<group>"; };
+		E4B7F1B01D129EE00045D50B /* HJTClearCacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJTClearCacheTool.h; sourceTree = "<group>"; };
+		E4B7F1B11D129EE00045D50B /* HJTClearCacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJTClearCacheTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B7F1441D1251100045D50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B7F1AC1D1296770045D50B /* WebKit.framework in Frameworks */,
+				6846DE5811F11F15EE45BC17 /* libPods-HJTMVVM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F15D1D1251100045D50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F1681D1251100045D50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1051B02C1E4CEA70715580 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00FDFC07BA1B2E10E1309ED5 /* Pods-HJTMVVM.debug.xcconfig */,
+				CCC5C832E0533045370865E8 /* Pods-HJTMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		531957532B0282A755B03ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1AB1D1296770045D50B /* WebKit.framework */,
+				9D7577C64326B1348F8CB1ED /* libPods-HJTMVVM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B7F13E1D1251100045D50B = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1491D1251100045D50B /* HJTMVVM */,
+				E4B7F1631D1251100045D50B /* HJTMVVMTests */,
+				E4B7F16E1D1251100045D50B /* HJTMVVMUITests */,
+				E4B7F1481D1251100045D50B /* Products */,
+				1A1051B02C1E4CEA70715580 /* Pods */,
+				531957532B0282A755B03ADA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B7F1481D1251100045D50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1471D1251100045D50B /* HJTMVVM.app */,
+				E4B7F1601D1251100045D50B /* HJTMVVMTests.xctest */,
+				E4B7F16B1D1251100045D50B /* HJTMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B7F1491D1251100045D50B /* HJTMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1AA1D1296350045D50B /* Framework */,
+				E4B7F1881D1255510045D50B /* Application */,
+				E4B7F1821D1253B20045D50B /* Utils */,
+				E4B7F1811D1251DD0045D50B /* TableViewProtocol */,
+				E4B7F17F1D1251CD0045D50B /* Controller */,
+				E4B7F17E1D1251C70045D50B /* View */,
+				E4B7F17D1D1251C00045D50B /* Model */,
+				E4B7F1531D1251100045D50B /* Main.storyboard */,
+				E4B7F1561D1251100045D50B /* Assets.xcassets */,
+				E4B7F1581D1251100045D50B /* LaunchScreen.storyboard */,
+				E4B7F14A1D1251100045D50B /* Supporting Files */,
+			);
+			path = HJTMVVM;
+			sourceTree = "<group>";
+		};
+		E4B7F14A1D1251100045D50B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F14B1D1251100045D50B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4B7F1631D1251100045D50B /* HJTMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1641D1251100045D50B /* HJTMVVMTests.m */,
+				E4B7F1661D1251100045D50B /* Info.plist */,
+			);
+			path = HJTMVVMTests;
+			sourceTree = "<group>";
+		};
+		E4B7F16E1D1251100045D50B /* HJTMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F16F1D1251100045D50B /* HJTMVVMUITests.m */,
+				E4B7F1711D1251100045D50B /* Info.plist */,
+			);
+			path = HJTMVVMUITests;
+			sourceTree = "<group>";
+		};
+		E4B7F17D1D1251C00045D50B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F18F1D12692B0045D50B /* WXNews DataModels.h */,
+				E4B7F1901D12692B0045D50B /* WXNewsList.h */,
+				E4B7F1911D12692B0045D50B /* WXNewsList.m */,
+				E4B7F1921D12692B0045D50B /* WXNewsResult.h */,
+				E4B7F1931D12692B0045D50B /* WXNewsResult.m */,
+				E4B7F1941D12692B0045D50B /* WXNewsWXNews.h */,
+				E4B7F1951D12692B0045D50B /* WXNewsWXNews.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E4B7F17E1D1251C70045D50B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F18A1D1268A00045D50B /* NewsTableViewCell.h */,
+				E4B7F18B1D1268A00045D50B /* NewsTableViewCell.m */,
+				E4B7F18C1D1268A00045D50B /* NewsTableViewCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E4B7F17F1D1251CD0045D50B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1501D1251100045D50B /* ViewController.h */,
+				E4B7F1511D1251100045D50B /* ViewController.m */,
+				E4B7F1A71D128E710045D50B /* WebViewController.h */,
+				E4B7F1A81D128E710045D50B /* WebViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E4B7F1811D1251DD0045D50B /* TableViewProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F19C1D1270960045D50B /* TableViewDataSource.h */,
+				E4B7F19D1D1270960045D50B /* TableViewDataSource.m */,
+				E4B7F19F1D1270A70045D50B /* TableViewDelegate.h */,
+				E4B7F1A01D1270A70045D50B /* TableViewDelegate.m */,
+			);
+			name = TableViewProtocol;
+			sourceTree = "<group>";
+		};
+		E4B7F1821D1253B20045D50B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F1831D12550B0045D50B /* HJTNetTool.h */,
+				E4B7F1841D12550B0045D50B /* HJTNetTool.m */,
+				E4B7F1871D12553C0045D50B /* ServerAddress.h */,
+				E4B7F1891D1256A10045D50B /* CustomTool.h */,
+				E4B7F1AD1D12983B0045D50B /* UIViewController+changeNavBarItem.h */,
+				E4B7F1AE1D12983B0045D50B /* UIViewController+changeNavBarItem.m */,
+				E4B7F1B01D129EE00045D50B /* HJTClearCacheTool.h */,
+				E4B7F1B11D129EE00045D50B /* HJTClearCacheTool.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		E4B7F1881D1255510045D50B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E4B7F15B1D1251100045D50B /* Info.plist */,
+				E4B7F14D1D1251100045D50B /* AppDelegate.h */,
+				E4B7F14E1D1251100045D50B /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E4B7F1AA1D1296350045D50B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B7F1461D1251100045D50B /* HJTMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B7F1741D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVM" */;
+			buildPhases = (
+				8478AA22A484A8B2B26F7F2B /* Check Pods Manifest.lock */,
+				E4B7F1431D1251100045D50B /* Sources */,
+				E4B7F1441D1251100045D50B /* Frameworks */,
+				E4B7F1451D1251100045D50B /* Resources */,
+				01A4EFB5219FD3A5A1D6D0FE /* Embed Pods Frameworks */,
+				523C5FBFAA458A09B46D7501 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HJTMVVM;
+			productName = HJTMVVM;
+			productReference = E4B7F1471D1251100045D50B /* HJTMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4B7F15F1D1251100045D50B /* HJTMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B7F1771D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVMTests" */;
+			buildPhases = (
+				E4B7F15C1D1251100045D50B /* Sources */,
+				E4B7F15D1D1251100045D50B /* Frameworks */,
+				E4B7F15E1D1251100045D50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B7F1621D1251100045D50B /* PBXTargetDependency */,
+			);
+			name = HJTMVVMTests;
+			productName = HJTMVVMTests;
+			productReference = E4B7F1601D1251100045D50B /* HJTMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4B7F16A1D1251100045D50B /* HJTMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B7F17A1D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVMUITests" */;
+			buildPhases = (
+				E4B7F1671D1251100045D50B /* Sources */,
+				E4B7F1681D1251100045D50B /* Frameworks */,
+				E4B7F1691D1251100045D50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B7F16D1D1251100045D50B /* PBXTargetDependency */,
+			);
+			name = HJTMVVMUITests;
+			productName = HJTMVVMUITests;
+			productReference = E4B7F16B1D1251100045D50B /* HJTMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B7F13F1D1251100045D50B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Heige;
+				TargetAttributes = {
+					E4B7F1461D1251100045D50B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					E4B7F15F1D1251100045D50B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E4B7F1461D1251100045D50B;
+					};
+					E4B7F16A1D1251100045D50B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = E4B7F1461D1251100045D50B;
+					};
+				};
+			};
+			buildConfigurationList = E4B7F1421D1251100045D50B /* Build configuration list for PBXProject "HJTMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4B7F13E1D1251100045D50B;
+			productRefGroup = E4B7F1481D1251100045D50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B7F1461D1251100045D50B /* HJTMVVM */,
+				E4B7F15F1D1251100045D50B /* HJTMVVMTests */,
+				E4B7F16A1D1251100045D50B /* HJTMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B7F1451D1251100045D50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B7F15A1D1251100045D50B /* LaunchScreen.storyboard in Resources */,
+				E4B7F1571D1251100045D50B /* Assets.xcassets in Resources */,
+				E4B7F18E1D1268A00045D50B /* NewsTableViewCell.xib in Resources */,
+				E4B7F1551D1251100045D50B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F15E1D1251100045D50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F1691D1251100045D50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01A4EFB5219FD3A5A1D6D0FE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJTMVVM/Pods-HJTMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523C5FBFAA458A09B46D7501 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HJTMVVM/Pods-HJTMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8478AA22A484A8B2B26F7F2B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B7F1431D1251100045D50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B7F1521D1251100045D50B /* ViewController.m in Sources */,
+				E4B7F1981D12692B0045D50B /* WXNewsWXNews.m in Sources */,
+				E4B7F1A11D1270A70045D50B /* TableViewDelegate.m in Sources */,
+				E4B7F1961D12692B0045D50B /* WXNewsList.m in Sources */,
+				E4B7F18D1D1268A00045D50B /* NewsTableViewCell.m in Sources */,
+				E4B7F1AF1D12983B0045D50B /* UIViewController+changeNavBarItem.m in Sources */,
+				E4B7F14F1D1251100045D50B /* AppDelegate.m in Sources */,
+				E4B7F1B21D129EE00045D50B /* HJTClearCacheTool.m in Sources */,
+				E4B7F1A91D128E710045D50B /* WebViewController.m in Sources */,
+				E4B7F1851D12550B0045D50B /* HJTNetTool.m in Sources */,
+				E4B7F19E1D1270960045D50B /* TableViewDataSource.m in Sources */,
+				E4B7F1971D12692B0045D50B /* WXNewsResult.m in Sources */,
+				E4B7F14C1D1251100045D50B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F15C1D1251100045D50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B7F1651D1251100045D50B /* HJTMVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B7F1671D1251100045D50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B7F1701D1251100045D50B /* HJTMVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4B7F1621D1251100045D50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B7F1461D1251100045D50B /* HJTMVVM */;
+			targetProxy = E4B7F1611D1251100045D50B /* PBXContainerItemProxy */;
+		};
+		E4B7F16D1D1251100045D50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B7F1461D1251100045D50B /* HJTMVVM */;
+			targetProxy = E4B7F16C1D1251100045D50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4B7F1531D1251100045D50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B7F1541D1251100045D50B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4B7F1581D1251100045D50B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B7F1591D1251100045D50B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4B7F1721D1251100045D50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4B7F1731D1251100045D50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B7F1751D1251100045D50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00FDFC07BA1B2E10E1309ED5 /* Pods-HJTMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJTMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4B7F1761D1251100045D50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCC5C832E0533045370865E8 /* Pods-HJTMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HJTMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4B7F1781D1251100045D50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJTMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTMVVM.app/HJTMVVM";
+			};
+			name = Debug;
+		};
+		E4B7F1791D1251100045D50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HJTMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HJTMVVM.app/HJTMVVM";
+			};
+			name = Release;
+		};
+		E4B7F17B1D1251100045D50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJTMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJTMVVM;
+			};
+			name = Debug;
+		};
+		E4B7F17C1D1251100045D50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HJTMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.toyohu.hejintao.HJTMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HJTMVVM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B7F1421D1251100045D50B /* Build configuration list for PBXProject "HJTMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B7F1721D1251100045D50B /* Debug */,
+				E4B7F1731D1251100045D50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B7F1741D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B7F1751D1251100045D50B /* Debug */,
+				E4B7F1761D1251100045D50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B7F1771D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B7F1781D1251100045D50B /* Debug */,
+				E4B7F1791D1251100045D50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B7F17A1D1251100045D50B /* Build configuration list for PBXNativeTarget "HJTMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B7F17B1D1251100045D50B /* Debug */,
+				E4B7F17C1D1251100045D50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B7F13F1D1251100045D50B /* Project object */;
+}
