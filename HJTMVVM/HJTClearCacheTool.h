@@ -7,14 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-
+typedef void(^cleanCacheBlock)();
 @interface HJTClearCacheTool : NSObject
+
 /**
- *  获得path路径文件夹的大小
+ *  清理缓存
  */
-+(NSString *)getCacheSizeWithFilePath:(NSString *)path;
++(void)cleanCache:(cleanCacheBlock)block;
+
 /**
- *  清楚path路径文件夹的缓存
+ *  整个缓存目录的大小
  */
-+ (BOOL)clearCacheWithFilePath:(NSString *)path;
++(float)folderSizeAtPath;
+
 @end
