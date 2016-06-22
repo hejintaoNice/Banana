@@ -153,22 +153,16 @@
 }
 
 -(void)ClearMemory{
-    NSString *fileSize = [HJTClearCacheTool getCacheSizeWithFilePath:filePath];
-    UIAlertController *alert=[UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"缓存大小%@确定清除么?",fileSize] message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    float fileSize = [HJTClearCacheTool folderSizeAtPath];
+    UIAlertController *alert=[UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"缓存大小%.2fM确定清除么?",fileSize] message:nil preferredStyle:UIAlertControllerStyleActionSheet];
     //创建一个取消和一个确定按钮
     UIAlertAction *actionCancle=[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
     //因为需要点击确定按钮后改变文字的值，所以需要在确定按钮这个block里面进行相应的操作
     UIAlertAction *actionOk=[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
         //清楚缓存
-        BOOL isSuccess = [HJTClearCacheTool clearCacheWithFilePath:filePath];
-        if (isSuccess) {
-            [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+        [HJTClearCacheTool cleanCache:^{
             [SVProgressHUD showSuccessWithStatus:@"清除成功"];
-            
-            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-                [SVProgressHUD dismiss];
-            });
-        }
+        }];
     }];
     //将取消和确定按钮添加进弹框控制器
     [alert addAction:actionCancle];
